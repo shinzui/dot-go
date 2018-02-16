@@ -5,6 +5,7 @@
 # The following hooks can be defined to customize behavior of your package:
 pkg.install() {
     go get -u github.com/sourcegraph/go-langserver
+    brew install go-delve/delve/delve
 }
 
 # pkg.push() {
